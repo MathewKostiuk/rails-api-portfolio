@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Project.create(name: 'Lettuce Share', github_url: 'https://github.com/MathewKostiuk/final-project', description: 'Lettuce share is a community network centred around minimizing food waste.')
+Project.create(name: 'Tweetr', github_url: 'https://github.com/MathewKostiuk/tweetr', description: 'A Twitter clone built using Node & Express.js with MongoDB')
+Project.create(name: 'Mapshare', github_url: 'https://github.com/MathewKostiuk/mapshare-lhl-midterm', description: 'Lighthouse Labs midterm project - An interactive map to save locations - using Node & Express.js with help from the Google Maps API')
+puts "data loaded success"
